@@ -10,9 +10,27 @@ The entire process is facilitated through a Colab environment.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./colab.ipynb)
 
+The Colab note above contains two code cells, each of which, when executed, launches Gradio's web UI.  
+Here is a description of each application
+
+### Vid2DensePose
+
+Upload input images to create motion videos that can be used in MagicAnimate.
+The motion video will be forced to resize to 512x512 and the FPS will be changed to 25.
+This is because these values are currently the best values for processing in MagicAnimate.
+
+This source code can be found [here](https://github.com/shinshin86/vid2densepose/tree/google-colab).
+
+### MagicAnimate-hf
+
+Motion video created with Vid2DensePose and a single still image can be used to create a video.  
+See [MagicAnimate](https://github.com/magic-research/magic-animate) for more information.
+
+This source code can be found [here](https://github.com/shinshin86/magicanimate-hf/tree/magic-animate-craft-with-colab).
+
 ## Special Thanks
 
-These tools have made it possible.
+This project is made possible by these wonderful projects.
 
 * [Vid2DensePose](https://github.com/Flode-Labs/vid2densepose)
 * [MagicAnimate](https://github.com/magic-research/magic-animate)
