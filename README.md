@@ -1,6 +1,6 @@
 # MagicAnimateCraft with Colab
 
-https://github.com/shinshin86/magic-animate-craft-with-colab/assets/8216064/7566a9c7-b415-4bd6-97ae-3fee8fb0660e
+https://github.com/shinshin86/magic-animate-craft-with-colab/assets/8216064/24170e4d-f3c1-4ea0-a6b8-01bc99f38c9f
 
 This project involves utilizing vid2densepose to create custom motion videos based on personal preferences.  
 Following the creation of these motion videos, the flow transitions to using MagicAnimate for video production.  
