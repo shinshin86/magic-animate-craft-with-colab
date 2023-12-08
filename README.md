@@ -19,6 +19,8 @@ Upload input images to create motion videos that can be used in MagicAnimate.
 The motion video will be forced to resize to 512x512 and the FPS will be changed to 25.
 This is because these values are currently the best values for processing in MagicAnimate.
 
+Output file will be placed under `/content/MagicAnimate-hf/demo/output`.
+
 This source code can be found [here](https://github.com/shinshin86/vid2densepose/tree/google-colab).
 
 ### MagicAnimate-hf
