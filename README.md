@@ -13,6 +13,9 @@ The entire process is facilitated through a Colab environment.
 The Colab note above contains two code cells, each of which, when executed, launches Gradio's web UI.  
 Here is a description of each application
 
+**About runtime settings**  
+Must be `v100 + high memory` to work properly.
+
 ### Vid2DensePose
 
 Upload input images to create motion videos that can be used in MagicAnimate.
